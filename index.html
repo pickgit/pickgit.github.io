@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-    <title>PubRTC + Mobile</title>
+    <title>简易多人视频聊天</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -37,7 +37,7 @@
 -->
     <form name="loginForm" id="login" action="#" onsubmit="return errWrap(login,this);">
         <span class="input input--nao">
-            <input class="input__field input__field--nao" type="text" name="username" id="username" placeholder="Enter A Username"/>
+            <input class="input__field input__field--nao" type="text" name="username" id="username" placeholder="1:输入一个名字，点击右侧登陆按钮!"/>
                 <label class="input__label input__label--nao" for="username">
                     <span class="input__label-content input__label-content--nao">                                          
                     </span>
@@ -62,7 +62,7 @@
     
     <form name="callForm" id="call" action="#" onsubmit="return errWrap(makeCall,this);">
         <span class="input input--nao">
-            <input class="input__field input__field--nao" type="text" name="number" id="call" placeholder="Enter User To Call!"/>
+            <input class="input__field input__field--nao" type="text" name="number" id="call" placeholder="2:输入一个呼叫对方的名字，点击右侧按钮呼叫!"/>
 					<label class="input__label input__label--nao" for="number">
 						<span class="input__label-content input__label-content--nao">                                          
                         </span>
@@ -83,11 +83,11 @@
 	</div>
     
 	<div id="logs" class="ptext"></div>
-
+<!--
 <p class="ptext"><b>To Use:</b></p>
 <p class="ptext">Type a username and click Log in. If input turns green you are ready to receive/place a call.</p>
 <p class="ptext">In a separate browser window, log in with a different username, and place a call to the first.</p>
-
+-->
 <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
 <!-- WebRTC Peer Connections -->
 <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- -->
